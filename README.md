@@ -1,27 +1,21 @@
 # Smart Fall Detection & Emergency Alert System
 
 ## Overview
-A deep learning based system that detects human falls in real time using camera input and triggers automatic emergency alerts.
+A real-time deep learning based system that detects human falls using camera input and automatically triggers emergency email alerts.
 
 ## Features
-- Real-time fall detection
-- AI-based pose analysis
+- Real-time fall detection from video or webcam
+- AI-based pose and motion analysis
 - Automatic email alert system
-- Works with video or live camera input
+- Works with pre-recorded video and live camera input
 
 ## Tech Stack
-Python, OpenCV, YOLOv8, PyTorch
+Python, OpenCV, YOLOv8, PyTorch, NumPy
 
-## How it works
-Camera → Frame Processing → AI Model → Fall Detection → Email Alert
+## System Flow
+Camera Input → Frame Processing → Model Prediction → Fall Detection → Email Alert
 
-## Demo
-(Will be added soon)
-
-## Screenshots
-(Will be added soon)
-
-## How to run
+## How to Run
 ```bash
 pip install -r requirements.txt
 python app.py
