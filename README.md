@@ -1,54 +1,58 @@
-# Smart Fall Detection & Emergency Alert System
+## 🚨 Real-Time AI Fall Detection System
 
-## Overview
-A real-time deep learning based system that detects human falls using computer vision and automatically sends emergency email alerts.
-
-This project is designed for elderly care, hospitals, and surveillance systems to improve safety monitoring.
+A computer vision based safety system that detects human falls in real time and automatically triggers emergency alerts using YOLOv8 and PyTorch.
 
 ---
 
-## Features
-- Real-time human fall detection using camera/video input
+## 🧠 Problem Statement
+
+Falls are one of the leading causes of injury among elderly individuals and patients in care environments. Manual monitoring is unreliable and slow in real-world scenarios.
+
+---
+
+## ⚡ Solution
+
+This system automates fall detection using deep learning and sends instant email alerts when a fall is detected, improving response time and safety monitoring.
+
+---
+
+## ✨ Features
+
+- Real-time fall detection using webcam or video
 - AI-based pose and motion analysis
-- Automatic email alert system on fall detection
-- Works with both live webcam and recorded video
-- Lightweight and easy to deploy
+- Automatic email alert system
+- Works with live and recorded video
+- Lightweight and deployable
 
 ---
 
-## Tech Stack
+## 🧰 Tech Stack
+
 Python, OpenCV, YOLOv8, PyTorch, NumPy
 
 ---
 
-## System Architecture
-Camera Input → Frame Processing → YOLO/Pose Detection → Fall Classification → Email Alert System
+## 🏗 System Flow
+
+Camera Input → Frame Processing → YOLOv8 Detection → Fall Classification → Email Alert
 
 ---
 
-## Demo
-A recorded demonstration of the working system is included in this repository.
+## 🎥 Demo
 
-📁 Demo video file: `Demo.mp4`
+A working demonstration of the system is included in this repository.
 
-To view it:
-- Open the repository on GitHub
-- Click on `Demo.mp4`
-- Download and play it locally
+📁 Demo video: `Demo.mp4`
 
----
-
-## Project Files
-- app.py → Main application
-- email_alert.py → Email notification system
-- model_loader.py → Model loading module
-- pose_utils.py → Pose estimation utilities
-- best_fall_detector.pth → Trained deep learning model
-- yolov8n.pt → YOLOv8 weights
+To view:
+1. Open repository
+2. Click on `Demo.mp4`
+3. Download and play locally
 
 ---
 
-## How to Run
+## ▶ How to Run
+
 ```bash
 pip install -r requirements.txt
 python app.py
