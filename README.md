@@ -61,10 +61,5 @@ Steps to view:
 ## How to Run
 
 pip install -r requirements.txt
-python app.py
 
-## ▶ How to Run
-
-```bash
-pip install -r requirements.txt
 python app.py
