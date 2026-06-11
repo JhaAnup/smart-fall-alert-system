@@ -1,4 +1,4 @@
-## Smart Fall Detection & Emergency Alert System
+## Deep Learning Powered Fall Detection & Emergency Alert System
 
 A real-time computer vision system that detects human falls using YOLOv8 and PyTorch, and sends automatic emergency email alerts.
 
